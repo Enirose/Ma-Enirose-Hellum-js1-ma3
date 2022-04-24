@@ -23,9 +23,6 @@ async function callRawG() {
                 <p>${facts[i].rating}</p>
                 <p>${facts[i].tags.length}</p>
                 </div>`
-
-
-
         }
 
     } catch (error) {
@@ -33,4 +30,5 @@ async function callRawG() {
         resultContainer.innerHTML = "An error occured";
     }
 }
+
 callRawG()
